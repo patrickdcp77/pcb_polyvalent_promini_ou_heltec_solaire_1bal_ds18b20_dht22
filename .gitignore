@@ -1,0 +1,28 @@
+# Ignorer les fichiers de sauvegarde automatiques de KiCad
+*.bak
+*-bak.*
+*_autosave-*
+
+# Ignorer les fichiers de verrouillage
+*.lck
+
+# Ignorer les fichiers de cache et les dossiers temporaires
+__pycache__/
+.cache/
+
+# Ignorer les fichiers de configuration spécifiques à l'utilisateur
+*.kicad_prl
+
+# Ignorer les dossiers de sauvegardes (backups) compressées
+*_backups/
+*.zip
+
+# Ignorer les fichiers générés (si vous les recréez avant l'envoi en fabrication)
+*.gtl
+*.gbl
+*.gts
+*.gbs
+*.drl
+*.gto
+*.gbo
+*.gm1

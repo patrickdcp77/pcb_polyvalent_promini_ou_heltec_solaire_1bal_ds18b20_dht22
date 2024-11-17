@@ -1,0 +1,52 @@
+connections du PCB polyvalent
+
+
+fonctionnement avec le promini et SIGFOX  J1 et J2
+alimentation par une batterie connectée à J8
+sigfox est géré en TX RX avec un module en J10
+si mise en place d'un panneau solaire avec une gestion de recharge de batterie
+le chargeur est en J11.
+la batterie est cette fois en J12 et passe par le chargeur
+le panneau solaire est connecté en J13 et passe par le chargeur
+la sortie système du chargeur est connectée par fil sur J14 car il n'y a pas de pin adapté au PCB. J14 est lié à J8. Donc si on utilise un panneau, on connecte la batterie sur J12 et le panneau sur J13 et on tire un cable du chargeur Sys out vers J14 qui alimente J8 et tous les composants.
+
+
+fonctionnement avec la carte Heltec LORA J4 et J3
+la carte Htcc est capable de gérer la recharge de batterie, la gestion du panneau et dispose d'une sortie EXT pour alimenter les sondes et couper leur alimentation en passant en veille.
+on alimente la carte via sont connecteur situer en dessous. Puisque le chargeur est inutile, la pin solar de la carte est connectée à J13 qui reçoit le panneau.
+
+
+les sondes
+la carte recoit 
+    une DHT22 connecteur J15 munie d'origine de sa platine avec son condensateur et sa résistance de tirage de 4k7
+    une DS18B20 en J9 avec une résistance de tirage de 4k7 sur le PCB en R3
+    un HX711 en J6 et J5
+    1 ou 2 balances en J7 en connectant les canaux A et B
+
+mesure de la tension batterie
+le condensateur et les 2 résistances sont prévus sur le PCB en C1 R1 et R2
+
+
+
+
+
+
+
+
+compte de sylvain avec son adresse habituelle
+aT5S&KdHD3r4D5HV
+
+
+celui chez Sylvain
+1FD4798 
+SNOC_DevKit_1-device
+PAC DB87C15700D1968E
+certificat   P_0028_9789_01
+
+celui chez jean luc
+1FD4837
+
+428D8AF7D70A676C  délété
+
+88BE5E4CBD3D9B74
+
