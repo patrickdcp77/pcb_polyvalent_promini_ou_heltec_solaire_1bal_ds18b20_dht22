@@ -3054,10 +3054,6 @@
 		(uuid "5e8b6d03-cf92-4a1b-8a5a-c66f0cf61362")
 	)
 	(no_connect
-		(at 78.74 86.36)
-		(uuid "6465905c-a32b-4590-89b3-f2d73193d419")
-	)
-	(no_connect
 		(at 48.26 109.22)
 		(uuid "658d47b3-d940-45b2-b3b7-3641a947b176")
 	)
@@ -3166,6 +3162,16 @@
 			(type default)
 		)
 		(uuid "03948605-8e23-4f36-aca1-39854db1cd9d")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06fb1b24-f562-4222-b819-81ebded52f47")
 	)
 	(wire
 		(pts
@@ -3436,6 +3442,16 @@
 			(type default)
 		)
 		(uuid "46599a45-744d-4b2f-8028-255ac1fa4bec")
+	)
+	(wire
+		(pts
+			(xy 81.28 86.36) (xy 78.74 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "480fcaf6-5be7-4acc-b632-8fd08e0e4bb4")
 	)
 	(wire
 		(pts
@@ -3829,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b48b2e7d-b477-4889-888d-b8471799ac42")
+	)
+	(wire
+		(pts
 			(xy 116.84 138.43) (xy 120.65 138.43)
 		)
 		(stroke
@@ -3896,16 +3922,6 @@
 			(type default)
 		)
 		(uuid "ca3c297e-89fe-4784-913a-7fc394be6554")
-	)
-	(wire
-		(pts
-			(xy 78.74 83.82) (xy 85.09 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb16f557-4181-43df-807d-e1401bf6033f")
 	)
 	(wire
 		(pts
@@ -4137,6 +4153,16 @@
 		)
 		(uuid "fec8e2c4-8493-42a2-a7c4-1a8cc95dd120")
 	)
+	(text "ATTENTION DHT22 DATA SUR PIN5 SUR LE PVB\nSCHÉMAT CHANGÉ\nSUR PCB COUPER PISTE ENTRE DATA DHT22 ET PIN5\nAJOUTER UN CABLE ENTRE PIN6 (GPIO5) ET DATA DE LA DHT22"
+		(exclude_from_sim no)
+		(at 62.992 121.412 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "123c47eb-59c9-44be-b355-485e1b37bce5")
+	)
 	(text "Solar charger\n4.4V à 6V"
 		(exclude_from_sim no)
 		(at 74.93 25.4 0)
@@ -4282,7 +4308,7 @@
 	)
 	(text "DHT22"
 		(exclude_from_sim no)
-		(at 66.04 85.09 0)
+		(at 65.532 87.376 0)
 		(effects
 			(font
 				(size 1.27 1.27)
